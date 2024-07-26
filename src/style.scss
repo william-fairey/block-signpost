@@ -1,0 +1,19 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-signpost {
+	display: block;
+	text-decoration: none;
+}
+
+.wp-block-create-block-signpost .wp-block-image {
+	margin: 0;
+}
+
+.wp-block-create-block-signpost img {
+	display: block;
+}

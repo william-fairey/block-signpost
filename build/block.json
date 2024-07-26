@@ -1,0 +1,25 @@
+{
+  "apiVersion": 2,
+  "name": "create-block/signpost",
+  "title": "Signpost",
+  "category": "widgets",
+  "icon": "admin-links",
+  "description": "Create a hyperlink and insert blocks inside it.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "href": {
+      "type": "string",
+      "default": ""
+    },
+    "target": {
+      "type": "string",
+      "default": "_self"
+    }
+  },
+  "textdomain": "signpost",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
